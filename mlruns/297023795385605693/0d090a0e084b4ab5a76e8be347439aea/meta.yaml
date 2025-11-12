@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/bharg/OneDrive/Desktop/mlops-churn-demo/mlruns/297023795385605693/0d090a0e084b4ab5a76e8be347439aea/artifacts
+end_time: 1762984892621
+entry_point_name: ''
+experiment_id: '297023795385605693'
+lifecycle_stage: active
+run_id: 0d090a0e084b4ab5a76e8be347439aea
+run_name: painted-boar-447
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762984881764
+status: 3
+tags: []
+user_id: bharg

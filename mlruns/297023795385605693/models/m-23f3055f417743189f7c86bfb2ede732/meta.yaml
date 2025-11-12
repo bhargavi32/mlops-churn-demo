@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/bharg/OneDrive/Desktop/mlops-churn-demo/mlruns/297023795385605693/models/m-23f3055f417743189f7c86bfb2ede732/artifacts
+creation_timestamp: 1762962175729
+experiment_id: '297023795385605693'
+last_updated_timestamp: 1762962187218
+model_id: m-23f3055f417743189f7c86bfb2ede732
+model_type: null
+name: model
+source_run_id: 38340b6b4f3e4cb2be2d4b7f139ac0f8
+status: 2
+status_message: null

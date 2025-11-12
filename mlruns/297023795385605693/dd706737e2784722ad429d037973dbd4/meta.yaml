@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/bharg/OneDrive/Desktop/mlops-churn-demo/mlruns/297023795385605693/dd706737e2784722ad429d037973dbd4/artifacts
+end_time: 1762984960566
+entry_point_name: ''
+experiment_id: '297023795385605693'
+lifecycle_stage: active
+run_id: dd706737e2784722ad429d037973dbd4
+run_name: powerful-gnat-983
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762984953416
+status: 3
+tags: []
+user_id: bharg

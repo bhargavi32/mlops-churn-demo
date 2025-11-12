@@ -1,0 +1,6 @@
+artifact_location: file:///C:/Users/bharg/OneDrive/Desktop/mlops-churn-demo/mlruns/297023795385605693
+creation_time: 1762962174795
+experiment_id: '297023795385605693'
+last_update_time: 1762962174795
+lifecycle_stage: active
+name: churn_prediction

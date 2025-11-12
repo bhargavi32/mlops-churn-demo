@@ -1,0 +1,47 @@
+name: CI-CD
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  build-test-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1 — Checkout code
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2 — Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      # Step 3 — Install dependencies
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Step 4 — Run tests (if you create tests later)
+      - name: Run tests
+        run: |
+          echo "No tests yet — skipping"
+          # pytest
+
+      # Step 5 — Build Docker image
+      - name: Build Docker image
+        run: docker build -t mlops-churn .
+
+      # Step 6 — Optional: Push to Docker Hub
+      # Uncomment later when you create a Docker Hub account
+      # - name: Login to Docker Hub
+      #   uses: docker/login-action@v2
+      #   with:
+      #     username: ${{ secrets.DOCKERHUB_USERNAME }}
+      #     password: ${{ secrets.DOCKERHUB_TOKEN }}
+      
+      # - name: Push Docker image
+      #   run: docker push mlops-churn

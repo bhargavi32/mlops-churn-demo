@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/bharg/OneDrive/Desktop/mlops-churn-demo/mlruns/297023795385605693/models/m-23f3055f417743189f7c86bfb2ede732/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.6.0
+model_id: m-23f3055f417743189f7c86bfb2ede732
+model_size_bytes: 973218
+model_uuid: m-23f3055f417743189f7c86bfb2ede732
+prompts: null
+run_id: 38340b6b4f3e4cb2be2d4b7f139ac0f8
+utc_time_created: '2025-11-12 15:42:55.883415'
